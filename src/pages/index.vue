@@ -71,7 +71,7 @@ export default {
   data () {
     return {
       canvas: null,
-      context: null,
+      context: null, // 助手
       stars: [], // 星星数组
       shadowColorList: [
         '#39f',
